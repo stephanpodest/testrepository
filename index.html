@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Index</title>
+</head>
+<body>
+<img
+        src="https://www.hdsports.de/media/reviews/photos/original/95/ea/a3/schreckhorn-61-1572279911.jpg"
+        alt="Berge hinter einem See im Sommer"
+        width=30%
+        title="Berge und See"
+>
+<h1>Neue Registrierung</h1>
+<form method="post">
+    <div>
+        <label for="salutation">
+            Anrede
+        </label>
+        <select id="salutation" name="salutation">
+            <option value="0">Frau</option>
+            <option value="1">Herr</option>
+            <option value="2">Divers</option>
+        </select>
+    </div>
+    <div>
+        <label for="username">Benutzername:</label>
+    </div>
+    <div>
+        <input type="text" id="username" name="username"/>
+    </div>
+
+    <div>
+        <label for="email">Email:</label>
+    </div>
+    <div>
+        <input id="email" name="email" placeholder="Deine E-Mailadresse" required>
+    </div>
+
+    <div>
+        <label for="password">Password</label>
+    </div>
+    <div>
+        <input id="password" name="password">
+    </div>
+    <div>
+        <label for="acceptPrivacyPolicy">
+            <input
+                    type="checkbox"
+                    id="acceptPrivacyPolicy"
+                    name="acceptPrivacyPolicy"
+                    required>
+            Hiermit akzeptiere ich die Datenschutzbestimmungen
+            <a href="./privacy-policy.html">Datenschutzbestimmungen</a>
+        </label>
+    </div>
+    <button type="submit">Absenden</button>
+</form>
+</body>
+</html>
